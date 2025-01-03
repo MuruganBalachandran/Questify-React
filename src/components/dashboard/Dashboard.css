@@ -1,0 +1,111 @@
+.dashboard-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .welcome-message {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--color-text);
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .action-button {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-button:hover {
+    background-color: var(--color-highlight);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button-icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .progress-section {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .progress-bar {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    background-color: var(--color-accent);
+    height: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .badges-section {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    
+    padding: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .badge-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .badge {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .badge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .notification-center {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 2rem;
+  }
+  
+  .notification {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
