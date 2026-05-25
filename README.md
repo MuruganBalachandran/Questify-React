@@ -1,4 +1,4 @@
-# Questify 
+# Questify - Quiz
 ![Screenshot 2024-11-18 132326](https://github.com/user-attachments/assets/8f899af4-c815-4471-849f-fd90e4f8cf85)
 ![Screenshot 2024-11-18 132527](https://github.com/user-attachments/assets/4daaa871-1b60-4ad4-a5c9-f14b0fdf0fa9)
 ![Screenshot 2024-11-18 132559](https://github.com/user-attachments/assets/3e50ff1c-4b2f-44e3-a88c-c5e7a651e221)
